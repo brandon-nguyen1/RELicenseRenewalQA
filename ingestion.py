@@ -31,7 +31,7 @@ def ingest():
     else:
         # if pinecone index does not exist, create it
         # convert pdf to text using pdfToText function
-        pdfToText('docs/vrc.pdf')
+        #pdfToText('docs/vrc.pdf')
 
         # load documents
         loader = TextLoader('docs/vrc.txt')
